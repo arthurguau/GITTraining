@@ -1,0 +1,43 @@
+
+
+//--- Create local git repository
+git init
+
+
+//-- create a file in working directory
+ ..... create a file .....
+
+
+//-- add new file to staging
+
+git status
+git add  fileName
+
+
+// -- commit new file  into repository
+git commit  -m "from Arther first"
+
+
+
+//-------------- Branch 
+
+// list ----
+git branch
+git branch -r
+git branch -a
+
+// create local branch --
+git checkout -b my-branch-name
+git checkout my-branch-name
+
+git clone https://tfs/tfs/ING%20Direct/Architecture/_git/payments
+
+
+
+//-- set your remote repository
+git remote add origin https://github.com/arthurguau/HelloWorld.git
+
+
+
+//--- push to remote
+git push origin my-new-branch
